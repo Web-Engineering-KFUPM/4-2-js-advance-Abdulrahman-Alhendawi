@@ -96,7 +96,10 @@ Task:
 2) Use spread syntax with Math.min(...) and Math.max(...) to find extremes.
 3) Display both values.
 */
-
+let thisArray = [0,1,2,3,4,5,6,7,8,9];
+let min = Math.min(...thisArray);
+let max = Math.max(...thisArray);
+console.log(min, max);
 // ===================================================================
 // TODO-6: EXCEPTIONS — try/catch/finally with EMPTY ARRAY edge case
 // ===================================================================
