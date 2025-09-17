@@ -110,6 +110,24 @@ Task:
 3) Handle the error using try { ... } catch (e) { ... } finally { ... } and log messages
    in each block so you can see the flow of control.
 */
+function getMax(...array) {
+   try {
+      if (array.length === 0) {
+         throw new error (e);
+      } 
+      let max = Math.max(...array);
+      return max;
+      
+   }
+   catch (e) {
+      console.log("There has been an error");
+   }
+   finally {
+      console.log("Finished Excecution");
+   }
+}
+let embtyArray = [];
+getMax(...embtyArray);
 
 // ===================================================================================
 // TODO-7: REGEX + forEach — find words containing 'ab' and log matches from the list
