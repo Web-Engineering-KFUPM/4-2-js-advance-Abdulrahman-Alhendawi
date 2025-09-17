@@ -73,7 +73,9 @@ Task:
 1) Create a String object or plain string.
 2) Use .charAt(index) and .length to output characters and size.
 */
-
+let myName = "Abdulrahman";
+console.log(myName.length);
+console.log(myName.charAt(7));
 // ===================================
 // TODO-4: DATE — day, month, and year
 // ===================================
