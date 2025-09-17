@@ -140,5 +140,17 @@ Given: const words = ["ban", "babble", "make", "flab"];
 3) For matches, log "<word> matches!".
 4) Display the words that matches the pattern.
 */
+const words = ["ban", "babble", "make", "flab"];
+
+const pattern = /ab/;
+
+// 2) Loop with .forEach()
+words.forEach(word => {
+  // 3) Use .test() to check matches
+  if (pattern.test(word)) {
+    console.log(`${word} matches!`);
+  }
+});
+
 
 // End of Advance JavaScript Lab — good luck!
